@@ -14,6 +14,7 @@ function App() {
         <Route path="/main" element={<Main />} />
         <Route path="services" element={<Services />} />
       </Routes>
+      <Main />
       <Footer />
     </div>
   );

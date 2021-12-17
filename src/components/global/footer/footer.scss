@@ -1,7 +1,9 @@
+@import "../../../scss/vars";
+
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: $global-bgc;
   margin: 0;
   padding: 20px;
   border-top: 1px solid #fff;

@@ -1,35 +1,82 @@
+@import "../../../scss/vars";
+
 .header {
   width: 100%;
-
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto 50px;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
+  background-color: $global-bgc;
   color: #fff;
-  position: fixed;
+  // position: fixed;
   top: 0;
 
-  .nav-menu {
-    width: 40%;
+  .nav {
+    width: 60%;
     display: flex;
     justify-content: flex-start;
-    /* margin: 0 20px; */
-    /* padding: 0 20px; */
+    align-items: center;
+
+    &__menu {
+      color: #fff;
+      background-color: $accent-color;
+      padding: 13px;
+      border-right: 0.1px solid $border-color;
+      cursor: pointer;
+    }
   }
 
-  .nav {
-    margin: 0 20px;
+  .logo {
+    padding: 0 20px;
+    border-right: 0.1px solid $border-color;
+  }
+  .logo-img {
+    width: 100px;
+    // border: $border-color;
   }
 
   .contact-menu {
-    width: 60%;
+    width: 40%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 1px solid $border-color;
     /* padding: 20px; */
   }
 
+  .social-links {
+    display: flex;
+    // margin: 0;
+    list-style: none;
+
+    a:hover {
+      color: azure;
+      background-color: $accent-color;
+      transition: 0.3s;
+    }
+  }
+
+  .social-items {
+    padding: 13px 20px;
+    // height: 20px;
+    // border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+
+    img {
+      width: 23px;
+      // background-color: #fff;
+    }
+  }
+
   .contacts {
-    margin: 0 50px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 20px;
+    // border-left: 1px solid $border-color;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 }
