@@ -1,8 +1,27 @@
-.main {
-  // padding: 50px 5px;
+.slider {
+  position: relative;
+  width: 100%;
   height: 100vh;
-  color: bisque;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  // object-fit: fill;
 }
-h1 {
-  color: bisque;
+
+.slider-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+
+.slider-img-prev {
+  transform: translateX(-100%);
+}
+
+.slider-img-next {
+  transform: translateX(100%);
 }

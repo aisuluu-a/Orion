@@ -30,25 +30,25 @@ function Header() {
         </div>
       </div>
       <div className="contact-menu">
-        <ul className="social-links">
+        <div className="social-links">
           <a href="/">
-            <li className="social-items">
+            <div className="social-items">
               <img src={youtubeLogo} alt="youtubeLogo" />
-            </li>
+            </div>
           </a>
 
           <a href="/">
-            <li className="social-items">
+            <div className="social-items">
               <img src={facebookLogo} alt="facebookLogo" />
-            </li>
+            </div>
           </a>
 
           <a href="/">
-            <li className="social-items">
+            <div className="social-items">
               <img src={telegramLogo} alt="telegramLogo" />
-            </li>
+            </div>
           </a>
-        </ul>
+        </div>
         <div className="contacts">
           <a href="tel:+996312000000">+996 312 000 000</a>
         </div>
