@@ -12,6 +12,9 @@ function Header() {
   function menuSlider() {
     document.querySelector(".nav__menu-items").classList.toggle("menu-vision");
   }
+  function secondMenuSlider() {
+    document.querySelector(".nav__menu-items").classList.toggle("menu-vision");
+  }
 
   return (
     <header className="header">
@@ -50,9 +53,7 @@ function Header() {
           <a href="tel:+996312000000">+996 312 000 000</a>
         </div>
       </div>
-      <nav className="nav__menu" onClick={menuSlider}>
-        <img src={menuImg} alt="Menu" />
-      </nav>
+      <nav className="second__menu" onClick={secondMenuSlider}></nav>
     </header>
   );
 }

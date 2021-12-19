@@ -7,10 +7,10 @@ function Nav() {
   }
   return (
     <div className="nav__menu-items">
-      <Link to="/main" onClick={menuSlider}>
-        Main
+      <Link className="subMenu" to="/main" onClick={menuSlider}>
+        Главная
       </Link>
-      <Link to="/services" onClick={menuSlider}>
+      <Link className="subMenu" to="/services" onClick={menuSlider}>
         Services
       </Link>
     </div>

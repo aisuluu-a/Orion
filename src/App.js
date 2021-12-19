@@ -1,10 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/global/header/Header";
-import Footer from "./components/global/footer/Footer";
-import Main from "./components/pages/main/Main";
-import Services from "./components/pages/services/Services";
+import {
+  Header,
+  Footer,
+  Main,
+  Services,
+  Partners,
+} from "./components/components";
 import { Routes, Route, Link } from "react-router-dom";
+import "./components/bootstrap/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -15,6 +19,9 @@ function App() {
         <Route path="services" element={<Services />} />
       </Routes>
       <Main />
+      <Services />
+      <Partners />
+
       <Footer />
     </div>
   );

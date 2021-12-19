@@ -1,7 +1,28 @@
+h1 {
+  color: blueviolet;
+}
+
 .services {
-  padding: 50px 5px;
+  margin: auto;
+  align-items: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 h1 {
-  color: blueviolet;
+  text-align: center;
+  grid-column: span 3;
+}
+
+@media screen and (max-width: 460px) {
+  .services {
+    display: block;
+  }
+
+  h1 {
+    font-size: 1.1em;
+    color: blue;
+  }
 }
