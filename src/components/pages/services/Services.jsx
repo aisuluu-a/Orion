@@ -3,25 +3,26 @@ import ServiceCard from "./Card";
 function Services() {
   const data = [
     {
-      imgSrc: "https://oteplicah.com/wp-content/uploads/2020/12/24.jpg",
+      imgSrc:
+        "https://quasa.io/storage/photos/%D1%84%D0%BE%D1%82%D0%BE%2013/%D0%B2%D0%BC%D0%B0%D0%BD%D0%B0%D0%B4%D0%B6%2010.jpeg",
       name: "Service 1",
       description: "Some description",
     },
     {
       imgSrc:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFZGaY0ac6-iBLXuCmJ8yZyr9jTxNJt0Y03Q&usqp=CAU",
+        "https://www.sunviewsoftware.com/hs-fs/hubfs/itsm.jpg?width=1200&name=itsm.jpg",
       name: "Service 2",
       description: "Some description",
     },
     {
       imgSrc:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-QIMdVTjLGhtOQI_CQ9eSxQ7IhmBd5AomHmyxHJ0nYPT333NJ563QxhynaRzHXKo1lY&usqp=CAU",
+        "https://premieritsolution.co.uk/wp-content/uploads/2020/01/Benefits-of-outsourced-IT-services-1024x512.png",
       name: "Service 3",
       description: "Some description",
     },
     {
       imgSrc:
-        "https://internet-akademia.ru/wp-content/uploads/2019/08/pexels-photo-14351921-1024x683.jpeg",
+        "https://botera.top/assets/images/blog/telegram-bot-internet-provider.jpg",
       name: "Service 4",
       description: "Some description",
     },

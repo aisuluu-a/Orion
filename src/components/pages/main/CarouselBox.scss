@@ -1,4 +1,16 @@
-.carousel {
+@import "../../../scss/vars";
+.d-block {
+  weight: 100%;
   height: 100vh;
-  color: blue;
+  object-fit: cover;
+
+  img {
+    width: 200px;
+  }
+}
+
+.descr {
+  border-radius: 10px;
+  color: #fff;
+  background-color: $global-bgc;
 }

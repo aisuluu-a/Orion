@@ -13,6 +13,9 @@ function Nav() {
       <Link className="subMenu" to="/services" onClick={menuSlider}>
         Services
       </Link>
+      <Link className="subMenu" to="/about" onClick={menuSlider}>
+        About
+      </Link>
     </div>
   );
 }

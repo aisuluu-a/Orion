@@ -9,6 +9,7 @@ import {
 } from "./components/components";
 import { Routes, Route, Link } from "react-router-dom";
 import "./components/bootstrap/css/bootstrap.min.css";
+import About from "./components/pages/about/about";
 
 function App() {
   return (
@@ -16,12 +17,13 @@ function App() {
       <Header />
       <Routes>
         <Route path="/main" element={<Main />} />
-        <Route path="services" element={<Services />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Main />
       <Services />
       <Partners />
-
+      <About />
       <Footer />
     </div>
   );

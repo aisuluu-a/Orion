@@ -3,35 +3,44 @@ import { Carousel } from "react-bootstrap";
 import sliImg from "./assets/sli.jpg";
 import slidImg from "./assets/slid.jpg";
 import slideImg from "./assets/slide.jpg";
+import "./carouselBox.scss";
+
+const slides = [
+  {
+    id: 1,
+    title: "Slide #1",
+    src: "https://i.pinimg.com/originals/df/62/e0/df62e0c2de432a875232774d8109a129.jpg",
+    desc: "BUILDING #1",
+  },
+  {
+    id: 2,
+    title: "Slide #2",
+    src: "https://isconspb.ru/wp-content/uploads/facade-building-glass-bottom-view-sky-4k_1538066457-768x432.jpg",
+    desc: "BUILDING #2",
+  },
+];
 
 export default class CarouselBox extends Component {
   render() {
     return (
-      <div className="carousel">
+      <>
         <Carousel>
-          <Carousel.Item>
-            <img className="d-block w-100 " src={sliImg} alt="sli" />
-            <Carousel.Caption>
-              <h3>First slide</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={slidImg} alt="slid" />
-            <Carousel.Caption>
-              <h3>Second slide</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={slideImg} alt="slide" />
-            <Carousel.Caption>
-              <h3>Third slide</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          {slides.map((slide) => {
+            return (
+              <Carousel.Item>
+                <img className="d-block w-100 " src={slide.src} alt="sli" />
+                <Carousel.Caption>
+                  <div className="descr">
+                    <h3>{slide.title}</h3>
+                    <p>{slide.desc}. </p>
+                  </div>
+                </Carousel.Caption>
+              </Carousel.Item>
+            );
+          })}
+          ;
         </Carousel>
-      </div>
+      </>
     );
   }
 }

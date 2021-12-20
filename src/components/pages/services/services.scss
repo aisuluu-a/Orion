@@ -1,9 +1,7 @@
-h1 {
-  color: blueviolet;
-}
+@import "../../../scss/vars";
 
 .services {
-  margin: auto;
+  margin: 50px auto;
   align-items: auto;
   width: 80%;
   display: grid;
@@ -14,6 +12,7 @@ h1 {
 h1 {
   text-align: center;
   grid-column: span 3;
+  color: $second-color;
 }
 
 @media screen and (max-width: 460px) {
@@ -23,6 +22,6 @@ h1 {
 
   h1 {
     font-size: 1.1em;
-    color: blue;
+    color: $accent-color;
   }
 }

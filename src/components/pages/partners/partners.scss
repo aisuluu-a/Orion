@@ -1,0 +1,21 @@
+@import "../../../scss/vars";
+
+.partners {
+  padding: 50px;
+  h2 {
+    font-size: 1.1 rem;
+    padding: 50px 0;
+    color: $accent-color;
+  }
+  .carousel-item-padding-40-px {
+    height: 100%;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  .custom-dot-list-style {
+    display: none;
+  }
+}
