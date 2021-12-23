@@ -8,7 +8,8 @@ import {
   Partners,
 } from "./components/components";
 import { Routes, Route, Link } from "react-router-dom";
-import "./components/bootstrap/css/bootstrap.min.css";
+// import "./components/bootstrap/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css"; // не было последней версии
 import About from "./components/pages/about/about";
 
 function App() {
