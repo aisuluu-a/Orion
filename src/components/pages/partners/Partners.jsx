@@ -56,8 +56,10 @@ class Partners extends Component {
           >
             {imgSlides.map((slide) => {
               return (
-                <div>
-                  <img src={slide} />
+                <div className="slides">
+                  <a href="/">
+                    <img src={slide} />
+                  </a>
                 </div>
               );
             })}

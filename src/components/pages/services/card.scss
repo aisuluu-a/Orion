@@ -1,3 +1,5 @@
+@import "../../../scss/vars";
+
 .ServiceCard {
   border: 1px solid #c7c4c4;
   padding: 15px;
@@ -21,6 +23,8 @@
 }
 
 .gc-name {
+  color: $accent-color;
+  margin-top: 10px;
   font-weight: bold;
   font-size: 1.2em;
 }

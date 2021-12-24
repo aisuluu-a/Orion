@@ -6,6 +6,7 @@ import {
   Main,
   Services,
   Partners,
+  BeforeAfter,
 } from "./components/components";
 import { Routes, Route, Link } from "react-router-dom";
 import "./components/bootstrap/css/bootstrap.min.css";
@@ -23,6 +24,7 @@ function App() {
       <Main />
       <Services />
       <Partners />
+      <BeforeAfter />
       <About />
       <Footer />
     </div>

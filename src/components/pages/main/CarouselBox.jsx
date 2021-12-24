@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
-import sliImg from "./assets/sli.jpg";
-import slidImg from "./assets/slid.jpg";
-import slideImg from "./assets/slide.jpg";
 import "./carouselBox.scss";
 
 const slides = [
