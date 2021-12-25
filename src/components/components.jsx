@@ -4,3 +4,5 @@ export { default as Main } from "./pages/main/Main";
 export { default as Services } from "./pages/services/Services";
 export { default as Partners } from "./pages/partners/Partners";
 export { default as BeforeAfter } from "./pages/beforeAfter/BeforeAfter";
+export { default as News } from "./pages/News/News";
+export { default as NewsItem } from "./pages/News/NewsItem";

@@ -54,9 +54,9 @@ class Partners extends Component {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
           >
-            {imgSlides.map((slide) => {
+            {imgSlides.map((slide, idx) => {
               return (
-                <div className="slides">
+                <div className="slides" key={idx}>
                   <a href="/">
                     <img src={slide} />
                   </a>

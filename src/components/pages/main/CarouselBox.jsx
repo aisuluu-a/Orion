@@ -20,24 +20,22 @@ const slides = [
 export default class CarouselBox extends Component {
   render() {
     return (
-      <>
-        <Carousel>
-          {slides.map((slide) => {
-            return (
-              <Carousel.Item>
-                <img className="d-block w-100 " src={slide.src} alt="sli" />
-                <Carousel.Caption>
-                  <div className="descr">
-                    <h3>{slide.title}</h3>
-                    <p>{slide.desc}. </p>
-                  </div>
-                </Carousel.Caption>
-              </Carousel.Item>
-            );
-          })}
-          ;
-        </Carousel>
-      </>
+      <Carousel>
+        {slides.map((slide, idx) => {
+          return (
+            <Carousel.Item key={idx}>
+              <img className="d-block w-100 " src={slide.src} alt="sli" />
+              <Carousel.Caption>
+                <div className="descr">
+                  <h3>{slide.title}</h3>
+                  <p>{slide.desc}. </p>
+                </div>
+              </Carousel.Caption>
+            </Carousel.Item>
+          );
+        })}
+        ;
+      </Carousel>
     );
   }
 }
