@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+//import React, { Component } from "react";
 import CarouselBox from "./CarouselBox";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
