@@ -13,7 +13,6 @@ function News() {
       );
 
       setNews(res.data.articles);
-      console.log(res);
     };
 
     getNews();

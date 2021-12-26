@@ -5,24 +5,39 @@ import logo from "../global-img/logo.svg";
 import youtubeLogo from "../global-img/youtube.svg";
 import facebookLogo from "../global-img/facebook.svg";
 import telegramLogo from "../global-img/telegram.svg";
-
+import { useState } from "react";
 import Nav from "../nav/Nav";
 
 function Header() {
+  const [openMenu, setOpenMenu] = useState(false);
+
   function menuSlider() {
-    document.querySelector(".nav__menu-items").classList.toggle("menu-vision");
+    setOpenMenu(true);
   }
-  function secondMenuSlider() {
-    document.querySelector(".nav__menu-items").classList.toggle("menu-vision");
-  }
+  // function menuSlider() {
+  //   document.querySelector(".nav__menu").classList.toggle("nav__menu-vision");
+  //   document
+  //     .querySelector(".nav__toggler")
+  //     .classList.toggle("nav__toggler-open");
+  // };
+  // function secondMenuSlider() {
+  //   document.querySelector(".nav__menu").classList.toggle("nav__menu-vision");
+  // }
+  console.log({ openMenu });
 
   return (
     <header className="header">
       <div className="nav">
-        <nav className="nav__menu" onClick={menuSlider}>
-          <img src={menuImg} alt="Menu" />
+        <nav
+          className={
+            openMenu ? "nav__toggler nav__toggler-open" : "nav__toggler"
+          }
+          onClick={() => setOpenMenu(!openMenu)}
+        >
+          <div className={"nav__menu"}>
+            <Nav />
+          </div>
         </nav>
-        <Nav />
         <div className="logo">
           <a href="/">
             <img className="logo-img" src={logo} alt="Logo" />
@@ -53,7 +68,7 @@ function Header() {
           <a href="tel:+996312000000">+996 312 000 000</a>
         </div>
       </div>
-      <nav className="second__menu" onClick={secondMenuSlider}></nav>
+      <nav className="second__menu"></nav>
     </header>
   );
 }

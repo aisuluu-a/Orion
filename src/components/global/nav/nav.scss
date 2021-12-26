@@ -6,12 +6,12 @@
   align-items: flex-start;
   text-decoration: none;
   position: absolute;
-  top: 55px;
-  left: -200px;
+  // top: 55px;
+  // left: -200px;
   // width: 20%;
   background-color: $accent-color;
-  opacity: 0;
-  transition: 0.3s;
+  // opacity: 0;
+  // transition: 0.3s;
 
   .subMenu {
     font-size: 0.9rem;
@@ -29,10 +29,4 @@
     transition: all 0.5s;
     // background-color: #fff;
   }
-}
-
-.menu-vision {
-  opacity: 1;
-  left: 0px;
-  transition: 0.3s;
 }

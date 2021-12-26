@@ -1,0 +1,30 @@
+.contacts
+ {
+    margin: auto;
+    text-align: center;
+
+}
+
+.boxs {
+
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+
+    .content {
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        margin: 10px 10px;
+
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+ 
