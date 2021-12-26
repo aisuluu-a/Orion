@@ -20,7 +20,7 @@ function Main() {
   }, []);
 
   return (
-    <div className="main">
+    <div className="main" id="main">
       <h3 className="typed">
         Мы сделаем ваш бизнес
         <br />

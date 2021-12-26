@@ -1,5 +1,6 @@
 import "./nav.scss";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Nav() {
   function menuSlider() {
@@ -7,15 +8,18 @@ function Nav() {
   }
   return (
     <div className="nav__menu-items">
-      <Link className="subMenu" to="/main" onClick={menuSlider}>
+      <HashLink className="subMenu" to="#main" onClick={menuSlider}>
         Главная
-      </Link>
-      <Link className="subMenu" to="/services" onClick={menuSlider}>
+      </HashLink>
+      <HashLink className="subMenu" to="#services" onClick={menuSlider}>
         Services
-      </Link>
-      <Link className="subMenu" to="/about" onClick={menuSlider}>
+      </HashLink>
+      <HashLink className="subMenu" to="#contacts" onClick={menuSlider}>
+        Contacts
+      </HashLink>
+      <HashLink className="subMenu" to="#about" onClick={menuSlider}>
         About
-      </Link>
+      </HashLink>
     </div>
   );
 }

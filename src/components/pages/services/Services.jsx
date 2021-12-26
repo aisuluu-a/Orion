@@ -41,7 +41,7 @@ function Services() {
   ];
 
   return (
-    <div className="services">
+    <div className="services" id="services">
       <h1>Company Services</h1>
       {data.map((entry, index) => (
         <ServiceCard {...entry} key={index} />

@@ -23,7 +23,7 @@ function Header() {
   // function secondMenuSlider() {
   //   document.querySelector(".nav__menu").classList.toggle("nav__menu-vision");
   // }
-  console.log({ openMenu });
+  // console.log({ openMenu });
 
   return (
     <header className="header">
@@ -34,7 +34,7 @@ function Header() {
           }
           onClick={() => setOpenMenu(!openMenu)}
         >
-          <div className={"nav__menu"}>
+          <div className={openMenu ? "nav__menu nav__menu-vision" : "nav__menu"}>
             <Nav />
           </div>
         </nav>

@@ -2,7 +2,7 @@ import "./about.scss";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h1> About Us</h1>
       <div className="about-img">
         <div className="about-text">

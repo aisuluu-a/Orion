@@ -5,7 +5,6 @@ import "./map.scss";
 
 import { Button, Form, Container } from "react-bootstrap";
 
-
 /*const AnyReactComponent = ({ text }) => 
     <div style={{
         color: 'white', 
@@ -67,9 +66,9 @@ export default function SimpleMap(){
 
 function Map() {
   return (
-    <div className="contacts">
+    <div className="contacts" id="contacts">
       <h1>Contacts</h1>
-      
+
       <div className="boxs">
         <div className="content">
           <iframe
@@ -84,42 +83,43 @@ function Map() {
         </div>
 
         <div className="content">
-        <Container style={{"textAlign":"left", padding:"20px", height:"100%"}}>
-          <h5 className="text-center"> Contact us</h5>
-            <Form >
+          <Container
+            style={{ textAlign: "left", padding: "20px", height: "100%" }}
+          >
+            <h5 className="text-center"> Contact us</h5>
+            <Form>
+              <Form.Group controlId="formName">
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="text" placeholder="Enter name" />
+              </Form.Group>
 
-                  <Form.Group controlId="formName">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter name" />
-                  </Form.Group>
+              <Form.Group controlId="formPhone">
+                <Form.Label>Phone</Form.Label>
+                <Form.Control type="number" placeholder="Enter phone number" />
+              </Form.Group>
 
-                  <Form.Group controlId="formPhone">
-                    <Form.Label>Phone</Form.Label>
-                    <Form.Control type="number" placeholder="Enter phone number" />
-                  </Form.Group>
+              <Form.Group controlId="formBasicEmail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Text>
+                  We'll never share your email with anyone else
+                </Form.Text>
+              </Form.Group>
 
-                  <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                    <Form.Text >
-                      We'll never share your email with anyone else
-                    </Form.Text>
-                  </Form.Group>
+              <Form.Group controlId="formBasicPassword">
+                <Form.Label>Example textarea</Form.Label>
+                <Form.Control as="textarea" rows="3" />
+              </Form.Group>
 
-                  <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Example textarea</Form.Label>
-                    <Form.Control as="textarea" rows="3" />
-                  </Form.Group>
+              <Form.Group controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Check me out" />
+              </Form.Group>
 
-                  <Form.Group controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                  </Form.Group>
-
-                  <Button variant="primary" type="submit">Submit</Button>
-
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
             </Form>
-      </Container>
-
+          </Container>
         </div>
       </div>
     </div>
