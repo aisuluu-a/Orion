@@ -14,22 +14,45 @@
   border-bottom: 0.1px solid $border-color;
   backdrop-filter: blur(2px);
 
-  svg {
-    fill: #343435;
-  }
-
   .nav {
     width: 70%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
-    &__menu {
+    &__toggler {
       color: #fff;
       background-color: $accent-color;
-      padding: 14px;
+      padding: 27px;
       border-right: 0.1px solid $border-color;
       cursor: pointer;
+      background-image: url("../global-img/menu.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: all 0.3s;
+
+      &-open {
+        background-image: url("../global-img/gamburger-close.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all 0.3s;
+      }
+    }
+
+    &__menu {
+      position: absolute;
+      top: 55px;
+      left: -200px;
+      width: 20%;
+      background-color: $accent-color;
+      opacity: 0;
+      transition: 0.3s;
+
+      &-vision {
+        opacity: 1;
+        left: 0px;
+        transition: 0.3s;
+      }
     }
   }
 
