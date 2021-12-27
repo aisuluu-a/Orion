@@ -43,17 +43,17 @@ function Footer() {
                 <p>
                   Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.
                 </p>
-                <time datetime="14-11-2012">14 Nov, 2012 </time>
+                <time dateTime="14-11-2012">14 Nov, 2012 </time>
               </li>
               <li>
                 <p>Scelerisque nisl consectetur et..</p>
-                <time datetime="14-11-2012">22 May, 2012 </time>
+                <time dateTime="14-11-2012">22 May, 2012 </time>
               </li>
               <li>
                 <p>
                   Pellentesque ornare sem lacinia quam venenatis vestibulum.
                 </p>
-                <time datetime="14-11-2012">15 July, 2012 </time>
+                <time dateTime="14-11-2012">15 July, 2012 </time>
               </li>
             </ul>
           </div>

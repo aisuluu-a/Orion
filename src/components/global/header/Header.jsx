@@ -1,40 +1,34 @@
 import "./header.scss";
-import { Link } from "react-router-dom";
-import menuImg from "../global-img/menu.svg";
+// import { Link } from "react-router-dom";
+// import menuImg from "../global-img/menu.svg";
 import logo from "../global-img/logo.svg";
 import youtubeLogo from "../global-img/youtube.svg";
 import facebookLogo from "../global-img/facebook.svg";
 import telegramLogo from "../global-img/telegram.svg";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Nav from "../nav/Nav";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
+  // const menuClose = useRef();
 
   function menuSlider() {
-    setOpenMenu(true);
+    setOpenMenu(!openMenu);
   }
-  // function menuSlider() {
-  //   document.querySelector(".nav__menu").classList.toggle("nav__menu-vision");
-  //   document
-  //     .querySelector(".nav__toggler")
-  //     .classList.toggle("nav__toggler-open");
-  // };
-  // function secondMenuSlider() {
-  //   document.querySelector(".nav__menu").classList.toggle("nav__menu-vision");
-  // }
-  console.log({ openMenu });
 
   return (
+    // <body ref={menuClose} onClick={menuSlider}>
     <header className="header">
       <div className="nav">
         <nav
           className={
             openMenu ? "nav__toggler nav__toggler-open" : "nav__toggler"
           }
-          onClick={() => setOpenMenu(!openMenu)}
+          onClick={menuSlider}
         >
-          <div className={"nav__menu"}>
+          <div
+            className={openMenu ? "nav__menu nav__menu-vision" : "nav__menu"}
+          >
             <Nav />
           </div>
         </nav>
@@ -70,6 +64,7 @@ function Header() {
       </div>
       <nav className="second__menu"></nav>
     </header>
+    // </body>
   );
 }
 
