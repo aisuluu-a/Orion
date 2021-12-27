@@ -1,6 +1,6 @@
 .contacts {
   margin: auto;
-  text-align: center;
+  margin-top: 50px;
 }
 
 .boxs {
@@ -13,15 +13,13 @@
   max-width: 80%;
   padding: 15px;
   margin: auto;
-  text-align: center;
 }
 .boxs .content {
-  height: 400px;
-  width: 400px;
-  text-align: center;
+  width: 500px;
   margin: 10px 10px;
 }
 .boxs iframe {
   width: 100%;
   height: 100%;
+  border: 2px solid black;
 }/*# sourceMappingURL=map.min.css.map */
