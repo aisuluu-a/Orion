@@ -1,13 +1,15 @@
 @import "../../../scss/vars";
 
 .partners {
-  padding: 50px;
+  padding-top: 25px;
+  margin: auto;
   h2 {
     font-size: 1.1 rem;
-    padding: 50px 0;
+    
     color: $accent-color;
   }
   .carousel-item-padding-40-px {
+    padding: 50px;
     // height: 100%;
     // display: flex;
     // align-items: center;
