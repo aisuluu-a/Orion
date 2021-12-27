@@ -1,9 +1,9 @@
-h1 {
-  color: blueviolet;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
 .services {
   margin: auto;
+  margin-top: 50px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #353535;
   -webkit-box-align: auto;
       -ms-flex-align: auto;
           align-items: auto;
@@ -11,11 +11,14 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
   text-align: center;
   grid-column: span 3;
+  color: #080808;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 460px) {
@@ -25,6 +28,6 @@ h1 {
 
   h1 {
     font-size: 1.1em;
-    color: blue;
+    color: #d32a3d;
   }
 }/*# sourceMappingURL=services.min.css.map */
