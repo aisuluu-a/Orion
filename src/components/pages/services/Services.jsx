@@ -5,7 +5,7 @@ import { servicesData } from "../../data";
 function Services() {
   return (
     <div className="services">
-      <h1>Company Services</h1>
+      <h1 className="font-weight-bold">Наши услуги</h1>
       {servicesData.map((entry, index) => (
         <ServiceCard {...entry} key={index} />
       ))}

@@ -1,11 +1,10 @@
 @import "../../../scss/vars";
 
 .services {
-  
   margin: auto;
   margin-top: 50px;
   padding-bottom: 25px;
-  border-bottom:  2px solid #353535;
+  border-bottom: 2px solid #353535;
   align-items: auto;
   width: 80%;
   display: grid;
@@ -15,9 +14,10 @@
 }
 
 h1 {
-  text-align: center;
+  // text-align: center;
   grid-column: span 3;
   color: $second-color;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 

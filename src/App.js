@@ -4,6 +4,7 @@ import {
   Header,
   Footer,
   Main,
+  ServiceMain,
   Services,
   Partners,
   BeforeAfter,
@@ -19,11 +20,12 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/main" element={<Main />} />
+        <Route path="/main" element={<ServiceMain />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Main />
+      <ServiceMain />
       <Services />
       <Partners />
       <BeforeAfter />

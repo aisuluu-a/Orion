@@ -1,5 +1,6 @@
 export { default as Header } from "./global/header/Header";
-export { default as Main } from "./pages/main/Main";
+export { default as ServiceMain } from "./pages/main/Main";
+export { default as Main } from "./pages/servicesMain/ServicesMain";
 export { default as Services } from "./pages/services/Services";
 export { default as Partners } from "./pages/partners/Partners";
 export { default as BeforeAfter } from "./pages/beforeAfter/BeforeAfter";
