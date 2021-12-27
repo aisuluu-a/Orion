@@ -1,10 +1,11 @@
 export { default as Header } from "./global/header/Header";
-// export { default as Footer } from "./global/footer/Footer";
 export { default as Main } from "./pages/main/Main";
 export { default as Services } from "./pages/services/Services";
 export { default as Partners } from "./pages/partners/Partners";
 export { default as BeforeAfter } from "./pages/beforeAfter/BeforeAfter";
 export { default as News } from "./pages/News/News";
 export { default as Map } from "./pages/map/Map";
+export { default as ContactUs } from "./pages/contactUs/ContactUs";
 export { default as NewsItem } from "./pages/News/NewsItem";
+export { default as Contact } from "./pages/contact/Contact";
 export { default as Footer } from "./global/footer/Footer";

@@ -8,7 +8,7 @@ import {
   Partners,
   BeforeAfter,
   News,
-  Map,
+  Contact,
 } from "./components/components";
 import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; // не было последней версии bootstrap
@@ -28,7 +28,7 @@ function App() {
       <Partners />
       <BeforeAfter />
       <News />
-      <Map />
+      <Contact />
       <About />
 
       <Footer />
