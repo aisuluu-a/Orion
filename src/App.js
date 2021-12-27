@@ -14,6 +14,8 @@ import {
 import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; // не было последней версии bootstrap
 import About from "./components/pages/about/about";
+import Articles from "./components/pages/article/Articles";
+
 
 function App() {
   return (
@@ -32,7 +34,7 @@ function App() {
       <News />
       <Contact />
       <About />
-
+      <Articles />
       <Footer />
     </div>
   );

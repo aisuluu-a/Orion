@@ -13,3 +13,4 @@ function NewsItem({ title, description, url, urlToImage }) {
 }
 
 export default NewsItem;
+

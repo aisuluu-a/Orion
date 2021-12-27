@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
 .nav__menu-items {
+  padding: 40px 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,24 +13,22 @@
           align-items: flex-start;
   text-decoration: none;
   position: absolute;
-  top: 55px;
-  left: -200px;
-  width: 20%;
   background-color: #d32a3d;
-  opacity: 0;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
 }
-.nav__menu-items a {
+.nav__menu-items .subMenu {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 0;
   text-decoration: none;
   color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-
-.menu-vision {
-  opacity: 1;
-  left: 0px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+.nav__menu-items .subMenu:hover {
+  color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }/*# sourceMappingURL=nav.min.css.map */
