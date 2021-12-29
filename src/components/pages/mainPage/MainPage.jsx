@@ -4,6 +4,7 @@ import {
   Partners,
   BeforeAfter,
   Contact,
+  About,
   Articles,
 } from "../../components";
 
@@ -16,7 +17,7 @@ function mainPage() {
       <BeforeAfter />
       {/* <News /> */}
       <Contact />
-      {/* <About /> */}
+      <About />
       <Articles />
     </div>
   );

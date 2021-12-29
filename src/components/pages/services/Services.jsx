@@ -4,7 +4,7 @@ import { servicesData } from "../../dataBase";
 
 function Services() {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <h1>Наши услуги</h1>
       <div className="services-item">
         {servicesData.map((entry, index) => (

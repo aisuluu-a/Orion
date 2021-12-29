@@ -20,5 +20,6 @@ export { default as Map } from "./pages/map/Map";
 export { default as ContactUs } from "./pages/contactUs/ContactUs";
 export { default as NewsItem } from "./pages/News/NewsItem";
 export { default as Contact } from "./pages/contact/Contact";
+export { default as About } from "./pages/about/about";
 export { default as Page404 } from "./pages/404Page/404Page";
 export { default as Footer } from "./global/footer/Footer";
