@@ -1,6 +1,28 @@
+h2 { 
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 .contact {
   width: 90%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+
+  .contact  {
+    display: block;
+    justify-content: center;
+    
+    .contact-us, .boxs {
+      width: 90%;
+    }
+
+
+
+}
+
+
 }
