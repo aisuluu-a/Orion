@@ -1,37 +1,43 @@
-import logo from "./logo.svg";
 import "./App.css";
 import {
   Header,
   Footer,
   Main,
+  MainPage,
+  Page404,
+  ServicesMain,
+  ServicesPage,
+  ServiceApps,
   Services,
   Partners,
   BeforeAfter,
   //News,
   Contact,
+  PageAutomatisation,
+  PageOutsoursing,
 } from "./components/components";
 import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; // не было последней версии bootstrap
 import About from "./components/pages/about/about";
-import Articles from "./components/pages/article/Articles";
-
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/main" element={<Main />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="" element={<MainPage />} />
+        <Route path="/main" element={<MainPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route
+          path="/services/automatisation"
+          element={<PageAutomatisation />}
+        />
+        <Route path="/services/apps" element={<ServiceApps />} />
+        <Route path="/services/outsoursing" element={<PageOutsoursing />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
-      <Main />
-      <Services />
-      <Partners />
-      <BeforeAfter />
-      <Contact />
-      <About />
-      <Articles />
+
       <Footer />
     </div>
   );

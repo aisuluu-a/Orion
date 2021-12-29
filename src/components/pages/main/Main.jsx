@@ -12,9 +12,7 @@ function Main() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      // placeholder: "Jyldyz",
-      // loop: true,
-      // cursorChar: "|",
+      backDelay: 900,
       strings: ["Автоматизированным", "Самостоятельным", "Прибыльным"],
     });
   }, []);

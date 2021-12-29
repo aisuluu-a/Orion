@@ -18,19 +18,18 @@
 
 .gc-image {
   width: 100%;
-  height: 70%;
+  height: 80%;
   object-fit: cover;
 }
 
 .gc-name {
-  
-  color: $accent-color;
-  margin-top: 1.5em;
+  color: $black;
+  margin-top: 20px;
+
   font-weight: bold;
 }
 
 .gc-description {
-  
   font-size: 1em;
 }
 
