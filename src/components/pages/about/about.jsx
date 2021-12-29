@@ -36,8 +36,10 @@ function About() {
           neque ab ratione eveniet doloremque provident ea consequatur suscipit
           voluptatem!
         </div>
-        <div className="container">
-          <div className="info">
+      </div>
+      <div className="container py-4">
+        <div className="row align-items-center">
+          <div className="col-6">
             <h1> О компании</h1>
             <p>
               SoftVoya началась с маленького IT отдела внутри Raiffeisen Group в
@@ -46,52 +48,73 @@ function About() {
               делом и полностью погружаются в проект клиента для достижения
               лучшего результата. Компания быстро растет и нам нужны новые люди.
             </p>
-            <p>
-              <strong>
-                Актуальный список открытых вакансий
-                <a href="https://softvoya.by/vacancies"> здесь </a>
-              </strong>
-            </p>
+            <strong>
+              Актуальный список открытых вакансий
+              <a href="https://softvoya.by/vacancies"> здесь </a>
+            </strong>
             <img
+              className="img-fluid"
               src="https://softvoya.ru/assets/img/about-us/diagramm.svg"
               alt="img"
             />
           </div>
-        </div>
-        <div className="descr">
-          <div>
+          <div className="col-6">
             <img
+              className="img-fluid"
               src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/16348/images/SE4MzukFTlyFWtj5wuhz_file.jpg"
               alt=""
             />
           </div>
         </div>
-        <div>
-          <p>
-            Наша команда реализовала более 100 проектов для клиентов из России,
-            Казахстана, США и Западной Европы в сферах финансы, юридические
-            услуги, страхование, медицина, недвижимость, туризм. Мы помогаем
-            масштабировать бизнес: автоматизируем и оцифруем процессы,
-            разработаем индивидуальный софт, интегрируем массовые решения и
-            поможем управлять подрядчиками в нашей CRM-системе, Upservice.
-          </p>
-        </div>
-        <div className="list">
-          <div className="list_item">
-            <img
-              src="https://softvoya.ru/assets/img/about-us/about-us-docs.svg"
-              alt="foto"
-            />
-            <button>Начать проект</button>
+      </div>
+      <div className="bg-light py-4">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-6">
+              <img
+                className="img-fluid"
+                src="https://softvoya.ru/assets/img/about-us/illustration-info.png"
+                alt="foto"
+              />
+            </div>
+            <div className="col-6">
+              <p>
+                Наша команда реализовала более 100 проектов для клиентов из
+                России, Казахстана, США и Западной Европы в сферах финансы,
+                юридические услуги, страхование, медицина, недвижимость, туризм.
+                Мы помогаем масштабировать бизнес: автоматизируем и оцифруем
+                процессы, разработаем индивидуальный софт, интегрируем массовые
+                решения и поможем управлять подрядчиками в нашей CRM-системе,
+                Upservice.
+              </p>
+            </div>
           </div>
         </div>
-        <div>
-          <p>
-            Наши собственные курсы проектного менеджмента, методологии agile и
-            DevOps позволяют команде оценивать работу в ретроспективе, улучшать
-            процессы и координировать будущие стратегии.
-          </p>
+      </div>
+      <div className="py-4">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-6">
+              <p>
+                Наши собственные курсы проектного менеджмента, методологии agile
+                и DevOps позволяют команде оценивать работу в ретроспективе,
+                улучшать процессы и координировать будущие стратегии.
+              </p>
+            </div>
+            <div className="col-6">
+              <img
+                className="img-fluid"
+                src="https://softvoya.ru/assets/img/about-us/about-us-docs.svg"
+                alt="foto"
+              />
+            </div>
+          </div>
         </div>
+      </div>
+      <div className="text-center my-4">
+        <a href="#" className="about-btn">
+          Начать проект
+        </a>
       </div>
     </div>
   );

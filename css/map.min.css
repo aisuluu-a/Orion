@@ -1,24 +1,21 @@
-.contacts {
+/*.contacts {
   margin: auto;
-  text-align: center;
-}
-
+  margin-top: 50px;
+}*/
 .boxs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 80%;
+  max-width: 90%;
   padding: 15px;
-  margin: auto;
-  text-align: center;
 }
 .boxs .content {
-  height: 400px;
-  width: 400px;
-  text-align: center;
+  width: 500px;
   margin: 10px 10px;
 }
 .boxs iframe {
