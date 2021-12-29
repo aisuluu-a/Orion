@@ -1,3 +1,8 @@
+h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 .contact {
   width: 90%;
   display: -webkit-box;
@@ -7,4 +12,16 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .contact-us, .contact .boxs {
+    width: 90%;
+  }
 }/*# sourceMappingURL=contact.min.css.map */

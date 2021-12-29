@@ -1,15 +1,29 @@
+
+/*.contacts {
+  margin: auto;
+  margin-top: 50px;
+}*/
+
 // .contacts {
 //   margin: auto;
 //   margin-top: 50px;
 // }
 
+
 .boxs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+
+  max-width: 90%;
+  padding: 15px;
+ 
+
   max-width: 80%;
   height: 500px;
   padding-right: 50px;
   margin: 0;
+
 
   .content {
     width: 500px;
@@ -21,3 +35,4 @@
     height: 100%;
   }
 }
+
