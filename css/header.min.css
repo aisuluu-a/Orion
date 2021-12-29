@@ -78,7 +78,7 @@
   width: 100px;
 }
 .header .contact-menu {
-  width: 30%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,6 +95,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   list-style: none;
 }
 .header .social-links a:hover {
@@ -103,6 +106,26 @@
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+.header .contacts {
+  width: 50%;
+  margin: 0;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.header .contacts a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.header .contacts a:hover {
+  text-decoration: none;
+  color: #d32a3d;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 .header .social-items {
   padding: 14px 20px;
@@ -113,6 +136,9 @@
   width: 23px;
 }
 .header .contacts {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   margin: 0;
   font-size: 1.1rem;
   font-weight: 500;

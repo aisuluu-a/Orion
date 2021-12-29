@@ -4,12 +4,17 @@ import { servicesData } from "../../data";
 
 function Services() {
   return (
-    <div className="services">
+    <div>
       <h1>Company Services</h1>
-      {servicesData.map((entry, index) => (
-        <ServiceCard {...entry} key={index} />
-      ))}
+          <div className="services">
+            
+            {servicesData.map((entry, index) => (
+              
+                <ServiceCard {...entry} key={index} />
+            ))}
+         </div>
     </div>
+
   );
 }
 
