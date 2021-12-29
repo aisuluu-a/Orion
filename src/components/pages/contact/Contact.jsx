@@ -3,11 +3,14 @@ import "./contact.scss";
 
 function contact() {
   return (
-    <div>
-      <h2>Contacts</h2>
-      <div className="contact">
+    <div className="contact">
+      <h2>Наши контакты</h2>
+      <div className="contact__inner">
         <Map />
-        <ContactUs />
+        <div className="contact__right">
+          <h5 className="text-center"> Свяжитесь с нами</h5>
+          <ContactUs />
+        </div>
       </div>
     </div>
   );

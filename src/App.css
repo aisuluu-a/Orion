@@ -1,5 +1,5 @@
 .App {
-  /* text-align: center; */
+  text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -37,5 +37,3 @@
     transform: rotate(360deg);
   }
 }
-
-

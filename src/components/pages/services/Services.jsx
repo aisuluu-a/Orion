@@ -1,14 +1,16 @@
 import "./services.scss";
 import ServiceCard from "./Card";
-import { servicesData } from "../../data";
+import { servicesData } from "../../dataBase";
 
 function Services() {
   return (
     <div className="services">
-      <h1 className="font-weight-bold">Наши услуги</h1>
-      {servicesData.map((entry, index) => (
-        <ServiceCard {...entry} key={index} />
-      ))}
+      <h1>Наши услуги</h1>
+      <div className="services-item">
+        {servicesData.map((entry, index) => (
+          <ServiceCard {...entry} key={index} />
+        ))}
+      </div>
     </div>
   );
 }

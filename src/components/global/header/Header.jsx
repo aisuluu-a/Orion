@@ -6,10 +6,11 @@ import youtubeLogo from "../global-img/youtube.svg";
 import facebookLogo from "../global-img/facebook.svg";
 import telegramLogo from "../global-img/telegram.svg";
 import { useState, useRef } from "react";
-import Nav from "../nav/Nav";
+import { Nav, NavSecond } from "../../components";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
+  const [openSecondMenu, setOpenSecondMenu] = useState(false);
   // const menuClose = useRef();
 
   function menuSlider() {
@@ -31,9 +32,16 @@ function Header() {
           >
             <Nav />
           </div>
+          {/* <div
+          className={
+            openSecondMenu ? "second-menu second-menu-vision" : "second-menu"
+          }
+          >
+            <NavSecond />
+          </div> */}
         </nav>
         <div className="logo">
-          <a href="/">
+          <a href="/main">
             <img className="logo-img" src={logo} alt="Logo" />
           </a>
         </div>
