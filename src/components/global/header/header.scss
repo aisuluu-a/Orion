@@ -86,6 +86,8 @@
 
   .contact-menu {
     // width: 30%;
+
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -95,6 +97,7 @@
 
   .social-links {
     display: flex;
+    width: max-content;
     // align-items: flex-start;
     // justify-content: flex-start;
     // margin: 0;
@@ -104,6 +107,25 @@
       color: azure;
       background-color: $accent-color;
       transition: 0.3s;
+    }
+  }
+
+  .contacts {
+    width: 50%;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 1.1rem;
+    font-weight: 500;
+    //padding: 0 20px;
+    // border-left: 1px solid $border-color;
+    a {
+      width: max-content;
+    }
+    a:hover {
+      text-decoration: none;
+      color: $accent-color;
+      transition: 0.2s;
     }
   }
 
@@ -122,6 +144,7 @@
   }
 
   .contacts {
+    width: max-content;
     margin: 0;
     white-space: pre;
     font-size: 1.1rem;

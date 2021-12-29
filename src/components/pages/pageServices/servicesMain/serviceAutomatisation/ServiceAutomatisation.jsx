@@ -1,4 +1,4 @@
-import { ServicesMain, ServiceItem } from "../../../../components";
+import { ServicesMain, ServiceItem, ContactUs } from "../../../../components";
 import { servicesItem } from "../../../../dataBase";
 import { automatServicesItem } from "../../../../dataBase";
 import "./serviceAutomatisation.scss";
@@ -57,6 +57,18 @@ function ServiceAutomatisation() {
               <li>Сопровождение после внедрения</li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className="consultation__inner">
+        <div className="consultation-img">
+          <img
+            src="https://softvoya.ru/assets/img/services/page/related-post.png"
+            alt=""
+          />
+        </div>
+        <div className="consultation-contacts">
+          <h2>Получить консультацию</h2>
+          <ContactUs />
         </div>
       </div>
     </>

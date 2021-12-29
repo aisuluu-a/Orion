@@ -3,7 +3,7 @@ import { ServiceOutsoursing } from "../../../components";
 function PageOutsoursing() {
   return (
     <div>
-      <ServiceOutsoursing />{" "}
+      <ServiceOutsoursing />
     </div>
   );
 }

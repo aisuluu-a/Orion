@@ -1,6 +1,5 @@
-import { ServicesMain, ServiceItem } from "../../../components";
+import { ServicesMain, ServiceItem, ContactUs } from "../../../components";
 import { servicesItem } from "../../../dataBase";
-import { appServicesItem } from "../../../dataBase";
 import "./serviceOutsoursing.scss";
 
 function ServiceOutsoursing() {
@@ -32,19 +31,16 @@ function ServiceOutsoursing() {
           оргтехники, IP-телефонии, а специалист в штате - сопровождает рабочие
           места и программное обеспечение.
         </p>
-
-        <div className="about-service">
-          <div className="service-description">
-            <h2>Тренды в дизайне мобильных приложений от Orion</h2>
-            <iframe
-              width="1285"
-              height="678"
-              src="https://www.youtube.com/embed/O182DruCmu8"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+        <div className="consultation__inner">
+          <div className="consultation-img">
+            <img
+              src="https://softvoya.ru/assets/img/services/page/related-post.png"
+              alt=""
+            />
+          </div>
+          <div className="consultation-contacts">
+            <h2>Получить консультацию</h2>
+            <ContactUs />
           </div>
         </div>
       </div>

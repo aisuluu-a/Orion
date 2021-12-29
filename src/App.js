@@ -11,7 +11,7 @@ import {
   Services,
   Partners,
   BeforeAfter,
-  News,
+  //News,
   Contact,
   PageAutomatisation,
   PageOutsoursing,
@@ -37,7 +37,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
-      {/* <MainPage /> */}
+
       <Footer />
     </div>
   );

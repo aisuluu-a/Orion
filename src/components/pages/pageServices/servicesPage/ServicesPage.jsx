@@ -17,7 +17,6 @@ function ServicesPage() {
         serviceImgSrc={servicesItem[0].imgSrc}
       />
       <Services />
-      {/* <div className="consultation"> */}
       <div className="consultation__inner">
         <div className="consultation-img">
           <img
@@ -30,7 +29,6 @@ function ServicesPage() {
           <ContactUs />
         </div>
       </div>
-      {/* </div> */}
     </div>
   );
 }
