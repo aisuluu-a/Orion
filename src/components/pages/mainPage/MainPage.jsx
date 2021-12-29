@@ -17,8 +17,8 @@ function mainPage() {
       <BeforeAfter />
       {/* <News /> */}
       <Contact />
-      <Articles />
       <About />
+      <Articles />
     </div>
   );
 }
