@@ -43,17 +43,17 @@ function Footer() {
                 <p>
                   Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.
                 </p>
-                <time dateTime="14-11-2012">14 Nov, 2012 </time>
+                <time dateTime="14-11-2021">14 Nov, 2021 </time>
               </li>
               <li>
                 <p>Scelerisque nisl consectetur et..</p>
-                <time dateTime="14-11-2012">22 May, 2012 </time>
+                <time dateTime="14-11-2021">22 May, 2021 </time>
               </li>
               <li>
                 <p>
                   Pellentesque ornare sem lacinia quam venenatis vestibulum.
                 </p>
-                <time dateTime="14-11-2012">15 July, 2012 </time>
+                <time dateTime="14-11-2021">15 July, 2021 </time>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ function Footer() {
         </div>
 
         <p className="footer__copyright">
-          © 2013 Marble. All rights reserved. Theme by elemis.
+          © 2021 Orion. All rights reserved. Theme by elemis.
         </p>
       </div>
     </footer>

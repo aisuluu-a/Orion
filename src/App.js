@@ -7,7 +7,7 @@ import {
   Services,
   Partners,
   BeforeAfter,
-  News,
+  //News,
   Contact,
 } from "./components/components";
 import { Routes, Route, Link } from "react-router-dom";
@@ -29,7 +29,6 @@ function App() {
       <Services />
       <Partners />
       <BeforeAfter />
-      <News />
       <Contact />
       <About />
       <Articles />

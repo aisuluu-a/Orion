@@ -51,11 +51,14 @@ class Articles extends React.Component {
               const { description, title, url, urlToImage } = article;
               return (
                 <div className="article-items" key={title}>
-                    <img src={urlToImage} alt={title} />
+                  <div>
+                  <img src={urlToImage} alt={title} />
                     <h6>
                       <a href={url}>{title}</a>
                     </h6>
                     <p>{description}</p>
+                  </div>
+
                 </div>
               );
             })
