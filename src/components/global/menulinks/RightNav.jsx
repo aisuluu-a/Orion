@@ -15,10 +15,10 @@ styled.div`
   @media (max-width: 768px) {
 
     flex-flow: column nowrap;
-    background-color: #0D2538;
+    background-color: #d32a3d;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: 0;
+    top: 50px;
     right: 0;
     height: 100vh;
     width: 200px;
