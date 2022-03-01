@@ -4,6 +4,15 @@ h2 {
 }
 
 .contact {
+  padding-top: 30px;
+}
+.contact h2 {
+  padding: 30px 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.contact__inner {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,6 +21,16 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
+}
+.contact__right {
+  margin: 0;
+  padding: 30px 0 0;
+}
+.contact__right h5 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 1000px) {

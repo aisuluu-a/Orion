@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,4 +54,34 @@
           animation: box-shadow 3s ease;
   cursor: pointer;
   width: 100%;
+}
+
+.info {
+  padding-left: 32px;
+  padding-right: 32px;
+  max-width: 1370px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h1 {
+  position: relative;
+  top: 5px;
+  left: 440px;
+  margin-left: 40px;
+}
+
+.about-btn {
+  padding: 10px 15px;
+  border: 2px solid #d32a3d;
+  border-radius: 30px;
+  text-transform: none;
+  color: #d32a3d;
+  text-decoration: none;
+}
+.about-btn:hover {
+  background: rgba(211, 42, 61, 0.6);
+  border: 1px solid rgba(211, 42, 61, 0.7);
+  color: white;
 }/*# sourceMappingURL=about.min.css.map */

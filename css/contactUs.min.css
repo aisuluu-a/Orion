@@ -1,13 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
 .contact-us {
   height: 500px;
   width: 40%;
   margin: auto;
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 .contact-us form {
-  height: 80%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,4 +23,13 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.contact-us button {
+  width: 200px;
+  background-color: #d32a3d;
+  border: none;
+  float: right;
+}
+.contact-us button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }/*# sourceMappingURL=contactUs.min.css.map */
